@@ -56,3 +56,34 @@ formations directement depuis la section Contact du site.
 | Envoi d'un formulaire valide : confirmation affichée | Réussi |
 | Affichage mobile sans défilement horizontal | Réussi |
 | Console JavaScript sans erreur | Réussi |
+
+## 6. Commandes Git utilisées
+
+### Clonage du dépôt et branches disponibles
+
+![git clone, git remote, git branch](captures/git/git-01-clone.png)
+
+### Passage sur ma branche et mise à jour depuis main
+
+![git switch, git pull](captures/git/git-02-branche-et-mise-a-jour.png)
+
+### Fichiers modifiés avant le commit
+
+![git status, git diff](captures/git/git-03-status-avant-commit.png)
+
+### Création du commit
+
+![git add, git commit, git show](captures/git/git-04-commit.png)
+
+### Envoi sur GitHub
+
+Le premier envoi sur `feature/vibe2244` a été refusé : une règle du dépôt
+impose de passer par une Pull Request. Le travail a donc été envoyé sur une
+nouvelle branche `feature/vibe2244-formulaire-contact`, puis proposé en
+Pull Request.
+
+![git push](captures/git/git-05-push.png)
+
+### Historique du projet
+
+![git log --graph](captures/git/git-06-historique.png)

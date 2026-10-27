@@ -30,7 +30,7 @@ Les invitations GitHub et les accès doivent être confirmés.
 
 ## 4. Difficultés rencontrées
 
-À compléter au fur et à mesure du projet.
+- Envoi refusé sur feature/vibe2244 (règle GitHub : passage obligatoire par une Pull Request). Solution : envoi sur la branche feature/vibe2244-formulaire-contact puis Pull Request.
 
 ## 5. Bilan
 
