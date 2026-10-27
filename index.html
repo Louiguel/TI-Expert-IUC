@@ -261,6 +261,45 @@
                     Site de l'IUC
                 </a>
             </div>
+
+            <div class="container contact-form-wrapper">
+                <h3>Envoyer une demande d'information</h3>
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="contact-name">Nom complet</label>
+                            <input id="contact-name" name="name" type="text" autocomplete="name" required minlength="2">
+                            <p class="field-error" id="contact-name-error" aria-live="polite"></p>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="contact-email">Adresse e-mail</label>
+                            <input id="contact-email" name="email" type="email" autocomplete="email" required>
+                            <p class="field-error" id="contact-email-error" aria-live="polite"></p>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-subject">Formation concernée</label>
+                        <select id="contact-subject" name="subject" required>
+                            <option value="">Choisir une formation</option>
+                            <option value="bac2">Cycle Bac+2</option>
+                            <option value="bac5">Cycle Bac+5 · TI-Master</option>
+                            <option value="autre">Autre demande</option>
+                        </select>
+                        <p class="field-error" id="contact-subject-error" aria-live="polite"></p>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" rows="5" required minlength="10"></textarea>
+                        <p class="field-error" id="contact-message-error" aria-live="polite"></p>
+                    </div>
+
+                    <button class="button button-primary" type="submit">Envoyer</button>
+                    <p class="form-success" id="contact-success" role="status" hidden></p>
+                </form>
+            </div>
         </section>
     </main>
 

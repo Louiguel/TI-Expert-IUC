@@ -8,6 +8,7 @@
 - Vérifier le lien externe vers le site de l'IUC.
 - Vérifier l'ouverture et la fermeture du menu mobile.
 - Vérifier l'affichage de l'année courante.
+- Vérifier la validation du formulaire de contact.
 
 ## 2. Tests responsive
 
@@ -41,3 +42,4 @@ Ne marquer un test comme réussi qu'après son exécution effective.
 | Responsive | À tester | |
 | Console JavaScript | À tester | |
 | Liens externes | À tester | |
+| Formulaire de contact | Réussi | Voir docs/modification-formulaire-contact.md |

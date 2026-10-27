@@ -23,7 +23,8 @@ Les invitations GitHub et les accès doivent être confirmés.
 | 1 | Création du dépôt GitHub | À confirmer dans l'historique |
 | 2 | Configuration de l'équipe | Invitations en attente |
 | 3 | Création des branches | À vérifier |
-| 4 | Développement du site | À réaliser |
+| 4 | Développement du site | En cours |
+| 4.1 | Ajout du formulaire de contact (vibe2244, feature/vibe2244) | Réalisé |
 | 5 | Tests | À réaliser |
 | 6 | Intégration et rapport final | À réaliser |
 
